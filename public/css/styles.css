@@ -1,0 +1,49 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+.text-vcenter {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.text-vcenter h1 {
+  font-size: 4.5em;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+}
+
+/* additional sections */
+#home {
+  background: url(../img/11.jpg) no-repeat center center fixed; 
+  display: table;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#home > div {
+  width: 100%;
+    /*margin-left: 30%;
+    margin-top: 5%;*/
+}
+
+#home > div  > button{
+    background: #40B932;
+    width: 30%;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+        height: 8vh;
+}
+
+body > nav > div{
+      background: #E5D9E5;
+}
